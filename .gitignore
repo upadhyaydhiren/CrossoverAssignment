@@ -1,0 +1,22 @@
+#linux
+*~
+
+#Eclipse
+.classpath
+.project
+.settings/
+
+# Intellij
+.idea/
+*.iml
+*.iws
+
+
+# Maven
+log/
+target/
+
+
+#UI
+node_modules/
+build/Release/

@@ -1,0 +1,89 @@
+/**
+    This is custom css file for ui
+**/
+
+html,
+body {
+	width: 100%;
+	height: 100%;
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+#loginMain {
+	width: 100%;
+	height: 100%;
+	color: #333;
+}
+#loginMain>div,
+#loginMain>div>div {
+	height: 100%;
+}
+#loginMain>div>div {
+	display: table;
+}
+.lrtabs {
+	display: table-cell;
+	vertical-align: middle;
+}
+.lrtab-holder {
+	background-color: #fff;
+	-webkit-box-shadow: 0 0 5px rgba(0,0,0,0.4);
+	box-shadow: 0 0 5px rgba(0,0,0,0.4);
+}
+h2.login-head {
+    margin: 0 0 50px;
+    color: #FFF;
+}
+.nav-tabs.nav-justified>li>a {
+	border-radius: 0;
+	font-size: 20px;
+	font-weight: 600;
+	background-color: #fafafa;
+}
+.nav-tabs.nav-justified>.active>a#register-tab,
+.nav-tabs.nav-justified>.active>a#register-tab:hover,
+.nav-tabs.nav-justified>.active>a#register-tab:focus {
+	border-width: 0 1px 0 0;
+	background-color: #fff;
+}
+.nav-tabs.nav-justified>.active>a#login-tab,
+.nav-tabs.nav-justified>.active>a#login-tab:hover,
+.nav-tabs.nav-justified>.active>a#login-tab:focus {
+	border-width: 0 0 0 1px;
+	background-color: #fff;
+}
+.tab-content {
+	padding: 30px;
+}
+
+.navbar {
+	border-radius: 0;
+	color: #FFF;
+	background-color: #337ab7;
+}
+a.navbar-brand {
+	margin: 0;
+	color: #FFF !important;
+}
+.navbar-default .navbar-nav>li>a,
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus {
+	color: #FFF;
+}
+
+.save-to-demand {
+	margin-bottom: 15px;
+}
+.select2-container .select2-selection--single {
+    height: 34px !important;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 32px !important;
+    text-align: left;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 32px !important;
+}
